@@ -120,12 +120,16 @@ html{ scroll-padding-top: 80px; }
 
 
 /* Day1.Day2 */
+.viewpoint-grid{
+  display: grid;
+  gap: 24px;
+}
+
 .view-item img{
   width: 100%;
-  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   display: block;
-  background: white;
-  padding: 10px;
   border-radius: 12px;
 }
 
