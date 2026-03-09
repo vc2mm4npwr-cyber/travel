@@ -1,7 +1,7 @@
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background:#f4f7f8;
-  color:#333;
+  background:#eaf1f6;
+  color:#5c5a5a;
   line-height: 1.7;
 }
 
@@ -131,6 +131,31 @@ html{ scroll-padding-top: 80px; }
   object-fit: cover;
   display: block;
   border-radius: 12px;
+}
+
+.spot-name{
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.spot-desc{
+  color: rgba(0,0,0,.65);
+  font-size: .9rem;
+}
+
+.spot-links{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.spot-links a{
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(143,174,168,.15);
+  color: #4a5a57;
 }
 
 main{
