@@ -1,8 +1,21 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background:#f4f7f8;
+  color:#333;
+  line-height: 1.7;
 }
 
+section{
+  margin-bottom: 60px;
+}
 
+h2{
+  margin-bottom: 16px;
+  font-size:1.4rem;
+  border-left:4px solid #8faea8;
+  padding-left:12px;
+  margin-bottom:20px;
+}
 
 /* HERO */
 .hero {
@@ -106,6 +119,23 @@ body {
 html{ scroll-padding-top: 80px; }
 
 
+/* Day1.Day2 */
+.view-item img{
+  width: 100%;
+  height: auto;
+  display: block;
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+main{
+  padding-bottom: 140px;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
 @media (max-width: 768px){
   .hero{ min-height: 85vh; }
   .hero-inner{ min-height: 85vh; }
@@ -135,3 +165,5 @@ html{ scroll-padding-top: 80px; }
     pointer-events: auto;
   }
 }
+
+
