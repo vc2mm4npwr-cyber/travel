@@ -120,6 +120,33 @@ html{ scroll-padding-top: 80px; }
 
 
 /* Day1.Day2 */
+.schedule ul{
+  list-style: none;
+  padding-left: 18px;
+  border-left: 2px solid rgba(0,0,0,0.1);
+}
+
+.schedule li{
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.scheduleli::before{
+  content:"";
+  width:8px;
+  height:8px;
+  background:#9db4ad;
+  border-radius:50%;
+  position:absolute;
+  left:-22px;
+  top:9px;
+}
+
+.time{
+  display: inline-block;
+  width: 64px;
+}
+
 .viewpoint-grid{
   display: grid;
   gap: 24px;
